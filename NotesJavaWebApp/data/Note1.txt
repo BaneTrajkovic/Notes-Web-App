@@ -1,0 +1,7 @@
+Index1
+Note1
+index.html
+defaultImage.png
+This is the text of the note. 
+Image will be default.
+Edited. This is edited note.

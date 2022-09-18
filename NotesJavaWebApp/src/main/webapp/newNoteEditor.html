@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes</title>
+    <link rel="stylesheet" href="newNoteEditorStyles.css">
+    <link rel="stylesheet" href="tableForInputStyles.css">
+    <link rel="stylesheet" href="navigationBarStyles.css">
+    <link rel="stylesheet" href="headerStyles.css">
+</head>
+<body>
+<h2>New Note Editor</h2>
+<div class="navigationBar">
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="searchBar.html">Search Notes</a>
+            </li>
+            <li>
+                <a href="newNoteEditor.html">Create New Note</a>
+            </li>
+            <li>
+                <a href="listOfNotesByIndexOnlyNames.html">List of Notes by Index</a>
+            </li>
+            <li>
+                <a href="listOfNotesByIndexWithText.html">List of Notes by Index (with Text)</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<form method="POST" action="/createNewNote.html" enctype="multipart/form-data">
+    <div class="newNoteEditorContainer">
+        <table class="container">
+            <tr>
+                <th>Index of the note:</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="indexOfNote" placeholder="Enter name of note here"  /></td>
+            </tr>
+            <tr>
+                <th>Name of the note:</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="nameOfNote" placeholder="Enter name of note here"  /></td>
+            </tr>
+            <tr>
+                <th>URL of the note: (first enter: https://)</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="urlOfNote" placeholder="Enter URL of note here"  /></td>
+            </tr>
+            <tr>
+                <th>Image of the note: (jpeg, png or gif)</th>
+            </tr>
+            <tr>
+                <th><input type="file" name="imageOfNote" accept="image/jpeg, image/png, image/gif"></th>
+            </tr>
+            <tr>
+                <th>Text of the note:</th>
+            </tr>
+            <tr>
+                <td><textarea name="textOfNote" placeholder="Type your note here"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit note"/></td>
+            </tr>
+        </table>
+    </div>
+</form>
+</body>
+</html>

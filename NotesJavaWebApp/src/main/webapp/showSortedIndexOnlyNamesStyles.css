@@ -1,0 +1,15 @@
+body {
+    background-color: aliceblue;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.listContainer {
+    margin-top: 0;
+    background-color: aliceblue;
+    padding-bottom: 200px;
+}
+

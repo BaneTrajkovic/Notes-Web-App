@@ -1,0 +1,16 @@
+#searchForm {
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#textBox {
+    height: 30px;
+    width : 250px;
+    font-size: 16px;
+}
+
+#searchButton {
+    height: 35px;
+    font-size: 16px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SearchForNote</title>
+  <link rel="stylesheet" href="navigationBarStyles.css">
+  <link rel="stylesheet" href="headerStyles.css">
+  <link rel="stylesheet" href="indexStyles.css">
+  <link rel="stylesheet" href="searchBarStyles.css">
+</head>
+<body>
+<h2>Search For Notes</h2>
+
+<div class="navigationBar">
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="searchBar.html">Search Notes</a>
+      </li>
+      <li>
+        <a href="newNoteEditor.html">Create New Note</a>
+      </li>
+      <li>
+        <a href="listOfNotesByIndexOnlyNames.html">List of Notes by Index</a>
+      </li>
+      <li>
+        <a href="listOfNotesByIndexWithText.html">List of Notes by Index (with Text)</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<div id="searchForm">
+  <form method="POST" action="/searchForNotes.html">
+    <input type="text" name="searchKeyword" id="textBox"   placeholder="Enter Search Keyword">
+    <input type="submit" id="searchButton"  value="Search">
+  </form>
+</div>
+
+</body>
+</html>

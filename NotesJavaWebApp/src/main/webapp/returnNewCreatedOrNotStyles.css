@@ -1,0 +1,10 @@
+.container {
+    width: 500px;
+    clear: both;
+    text-align: left;
+}
+
+#notesText {
+    white-space: pre-wrap;
+}
+

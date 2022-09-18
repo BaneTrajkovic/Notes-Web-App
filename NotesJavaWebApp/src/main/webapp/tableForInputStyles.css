@@ -1,0 +1,22 @@
+.container {
+    width: 500px;
+    clear: both;
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+.container input {
+    width: 100%;
+    clear: both;
+}
+
+
+textarea{
+    width: 500px;
+    height: 500px;
+    white-space: pre;
+    /*resize: ;*/
+}
+
+
+

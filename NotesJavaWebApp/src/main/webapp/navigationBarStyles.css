@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.navigationBar nav {
+    height: fit-content;
+    background-color: dodgerblue ;
+    overflow: hidden;
+}
+
+.navigationBar  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navigationBar nav li {
+    float: left;
+    padding: 20px 20px 20px 20px;
+}
+
+.navigationBar  nav a {
+    font-size: 20px;
+    /*1.2 em*/
+    color: white;
+    text-decoration: none;
+
+}
+.navigationBar li:hover {
+    background-color: blue;
+}
